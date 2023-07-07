@@ -53,14 +53,37 @@ nav a {
 
 .header {
   background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner {
   padding: 30px 30px 30px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.banner-content {
+  max-width: 500px;
 }
 
 .banner .pic {
   width: 500px;
 }
+
+.banner-greeting {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.banner-name {
+  font-size: 55px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+/*  */
+
+/* main section styles */
