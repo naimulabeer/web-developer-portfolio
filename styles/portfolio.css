@@ -88,6 +88,11 @@ nav a {
 
 /* main section styles */
 
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* about section styles */
 
 .about {
@@ -109,4 +114,16 @@ nav a {
   text-align: center;
   font-size: 18px;
   margin-top: 0px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  text-align: center;
+  color: #757575;
+  font-size: 20px;
+  font-style: normal;
 }
