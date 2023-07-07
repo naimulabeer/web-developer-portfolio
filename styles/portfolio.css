@@ -87,3 +87,26 @@ nav a {
 /*  */
 
 /* main section styles */
+
+/* about section styles */
+
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.about-summary {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 0px;
+}
